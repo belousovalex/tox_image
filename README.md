@@ -1,2 +1,1 @@
-# tox_image
-Docker container with some python versions and tox.
+Image contains python 3.5, 3.6, 3.7 and tox.
