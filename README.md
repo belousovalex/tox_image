@@ -1,1 +1,1 @@
-Image contains python 3.5.9, 3.6.9, 3.7.4, 3.8.0 and tox.
+Image contains python 3.8.13, 3.9.13, 3.10.6 and tox.
