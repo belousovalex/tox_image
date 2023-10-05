@@ -17,4 +17,13 @@ RUN ./configure && make && make install
 
 WORKDIR /
 
+RUN wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz && tar -zxvf Python-3.11.3.tgz
+
+WORKDIR Python-3.11.3
+
+RUN ./configure && make && make install
+
+
+WORKDIR /
+
 RUN pip3 install tox
